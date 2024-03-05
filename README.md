@@ -22,7 +22,7 @@ Add it to the project and set your folder paths correctly.
 4. **Record, Isolate, Enjoy**: Start creating and isolating vocals in a user-friendly environment!
 
 ## Requirements 📋
-- Python 3.x
+- Python 3.8
 - SoundDevice, PyQT5, Torch, Torchaudio, Numpy
 - A microphone for recording📼
 - Or A recording from your iphone
