@@ -15,7 +15,7 @@ This app is here to transform your audio experience, whether you're a budding mu
 ## Getting Started 🌈
 1. **Install Dependencies**: Make sure you have Python, PyQT5, SoundDevice, Torch, and other dependencies installed.
 
-***You will need to download the Demucs model from here ---->https://github.com/adefossez/demucs****
+***You will need to download the Demucs v4 model from here ---->https://github.com/adefossez/demucs****
       Add it to the project and set your folder paths correctly. 
 
 2. **Run the App**: Launch `voxtest.py` and watch the interface come alive.
