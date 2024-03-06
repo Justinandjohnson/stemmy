@@ -24,6 +24,7 @@ This app is here to transform your audio experience, whether you're a budding mu
 
 ## Requirements 📋
 - Python 3.8
+- download the Demucs v4 model from here ---->https://github.com/adefossez/demucs
 - SoundDevice, PyQT5, Torch, Torchaudio, Numpy
 - A microphone for recording📼
 - Or A recording from your iphone
