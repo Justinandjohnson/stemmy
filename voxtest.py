@@ -14,8 +14,8 @@ import torchaudio
 import torch.hub
 
 class AudioRecorder(QThread):
-    finished = pyqtSignal(np.ndarray, int)  # Signal when recording is finished
-    audio_level_updated = pyqtSignal(float)  # Signal for real-time metering
+    finished = pyqtSignal(np.ndarray, int)  
+    audio_level_updated = pyqtSignal(float) 
 
     def __init__(self, fs, channels, device=None):
         super().__init__()
@@ -35,7 +35,7 @@ class AudioRecorder(QThread):
     def audio_callback(self, indata, frames, time, status):
         self.recorded_audio = np.vstack((self.recorded_audio, indata))
         audio_level = np.sqrt(np.mean(indata**2))
-        self.audio_level_updated.emit(audio_level * 100)  # Amplify for visibility
+        self.audio_level_updated.emit(audio_level * 100)  # Amplify 
 
     def stop(self):
         self.recording = False
@@ -166,7 +166,7 @@ class DemucsAudioApp(QWidget):
         self.stemmingProgressBar.setValue(50)  # Simulate progress
 
     def stop_stemming_progress(self):
-        self.stemmingProgressBar.setValue(100)  # Indicate completion
+        self.stemmingProgressBar.setValue(100) 
 
     def save_stems(self):
         if self.output_path:
