@@ -28,11 +28,7 @@ Getting Started 🌈
      pip install -e .
      ```
 
-2. Download the Demucs v4 model:
-   - Get the Demucs v4 model from [this link](https://github.com/adefossez/demucs).
-   - Add it to the project's model directory and ensure your folder paths are set correctly in the code.
-
-3. Run the App:
+2. Run the App:
    - Launch `voxtest.py` and watch the interface come alive.
    - Select your recording device from the drop-down menu.
    - Start creating and isolating vocals in a user-friendly environment!
